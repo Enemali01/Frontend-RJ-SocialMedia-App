@@ -1,0 +1,20 @@
+import Sidebar from '../../components/sidebar/Sidebar'
+import Topbar from '../../components/topbar/Topbar'
+import Rightbar from '../../components/rightbar/Rightbar'
+import Feed from '../../components/feed/feed'
+import './Home.css'
+
+ const Home = () => {
+  return (
+    <div>
+    <Topbar/>
+    <div className="homeContainer">
+    <Sidebar />
+    <Feed />
+    <Rightbar />
+    </div>
+  </div>
+  )
+}
+
+export default Home
